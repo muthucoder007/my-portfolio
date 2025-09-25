@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me | M. Muthu</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .glow {
+      color: #9ACD32;
+      text-shadow: 0 0 10px #9ACD32, 0 0 20px #9ACD32;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #111;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      color: #9ACD32;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #9ACD32;
+    }
+
+    .about-section {
+      min-height: 100vh;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .about-section img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #9ACD32;
+      box-shadow: 0 0 20px #9ACD32;
+      margin-bottom: 1.5rem;
+    }
+
+    .about-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .about-section p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      max-width: 700px;
+    }
+
+    .info-box {
+      background-color: #111;
+      border: 1px solid #9ACD32;
+      box-shadow: 0 0 15px #9ACD32;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 600px;
+      text-align: left;
+      margin-bottom: 1.5rem;
+    }
+
+    .info-box h2 {
+      color: #9ACD32;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #333;
+      padding-bottom: 0.5rem;
+    }
+
+    .info-box ul {
+      list-style: none;
+      line-height: 1.8;
+      padding-left: 0;
+    }
+
+    .info-box ul li strong {
+      color: #9ACD32;
+    }
+
+    @media (max-width: 768px) {
+      .about-section {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">PORTFOLIO</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skill.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- About Section -->
+  <section class="about-section">
+    <img src="myphoto.jpg" alt="M. Muthu Photo" />
+
+    <h1>Hello, I'm <span class="glow">M. Muthu</span></h1>
+    <p>I am a Computer Science student and I’m passionate about <strong>editing</strong>.</p>
+
+    <!-- Short Bio -->
+    <div class="info-box">
+      <h2>Short Bio</h2>
+      <ul>
+        <li><strong>Name:</strong> M. Muthu</li>
+        <li><strong>Education:</strong> BE – Computer Science and Engineering</li>
+        <li><strong>College:</strong> Maha Barathi Engineering College</li>
+      </ul>
+    </div>
+
+    <!-- Skills -->
+    <div class="info-box">
+      <h2>Skills</h2>
+      <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS (Basic)</li>
+      </ul>
+    </div>
+
+    <!-- Career Objective -->
+    <div class="info-box">
+      <h2>Career Objective</h2>
+      <p>I need to place in IT field in any sector where I can improve my skills and grow professionally.</p>
+    </div>
+
+    <!-- Strengths -->
+    <div class="info-box">
+      <h2>Strengths</h2>
+      <ul>
+        <li>Good Listening Skill</li>
+        <li>Team Work</li>
+      </ul>
+    </div>
+
+    <!-- Hobbies -->
+    <div class="info-box">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Reading Books</li>
+        <li>Listening to Music</li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
+
+ 
